@@ -66,5 +66,5 @@ mxCasesDF <- read.csv ( file=unzipfile$Name)
 #run graphs increment vs acumulated
 
 
-#dataframe with country weide cases, stane number, state name, daysto cut off	, savetoFile, path
+#dataframe with country wide cases, Country  name, days to cut off	, savetoFile, path
   calculaREstado (mxCasesDF , "Mexico", 3, TRUE, paste(mydir,"/img",sep=""))

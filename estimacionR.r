@@ -68,8 +68,7 @@ nombreEstados <-c ("AGUASCALIENTES","BAJA_CALIFORNIA","BAJA_CALIFORNIA_SUR","CAM
 #run graphs increment vs acumulated
 
 for (i in 1:length(listaEstados)) {
-#for (i in 16:16) {
 
-#dataframe with country weide cases, stane number, state name, daysto cut off	, savetoFile, path
+#dataframe with country wide cases, state number, state name, daysto cut off	, savetoFile, path
   calculaREstado (mxCasesDF , listaEstados[[i]],nombreEstados[[i]], 3, TRUE, paste(mydir,"/img",sep=""))
 }
